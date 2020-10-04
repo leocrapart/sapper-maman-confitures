@@ -1,0 +1,6 @@
+	{#each data as bear, i}
+		<div>{i}</div>
+		{#each Object.entries(bear) as bear_data}
+			<div>{bear_data[0]} => {bear_data[1]}</div>
+		{/each}
+	{/each}
