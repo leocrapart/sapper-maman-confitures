@@ -10,10 +10,17 @@
 
 <script>
 	export let data
-	console.log(data) 
 </script>
 
-<div>
+<div class="rounded bg-gray-200 mb-4 p-4">
+	<div>Valerie confiture</div>
+	<div class="text-sm">
+		super confitures
+	</div>
+</div>
+
+
+<div class="bg-gray-200 rounded p-4 ">
 	<div>data is here</div>
 	{#each data as bear, i}
 		<div>{i}</div>
